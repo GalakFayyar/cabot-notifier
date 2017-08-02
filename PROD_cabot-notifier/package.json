@@ -1,0 +1,17 @@
+{
+  "name": "cabot-notifier",
+  "version": "0.0.0",
+  "description": "Envoi l'état des instances d'un cabot par notification",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Matthieu Drouian",
+  "license": "MIT",
+  "dependencies": {
+    "cron": "^1.2.1",
+    "node-notifier": "~5.1.2",
+    "path": "^0.12.7",
+    "request": "~2.81.0"
+  }
+}
